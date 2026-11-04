@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 16px;
+}
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+}
+h1{
+    text-align: center;
+    color: #4f46e5;
+}
+.add-box{
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+}
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+#addBtn {
+    background: #6366f1;
+    color: white;
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f9fafb;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: 4px solid #6366f1;
+}
+li span {
+    flex: 1;
+}
+
+.edit-btn {
+    background: #fbbf24;
+    color: white;
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+}
+
+/* Чеклэгдсэн ажил */
+.done {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+
+/* Засаж байгаа үед */
+li span[contenteditable="true"] {
+    background: white;
+    outline: 2px solid #6366f1;
+    padding: 4px 6px;
+}
